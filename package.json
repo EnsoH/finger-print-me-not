@@ -23,7 +23,8 @@
   "type": "module",
   "files": [
     "src",
-    "dist"
+    "dist",
+    "tsconfig.*"
   ],
   "scripts": {
     "prepare": "tsc",
