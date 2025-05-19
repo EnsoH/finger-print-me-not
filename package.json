@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Teachmetech/finger-print-me-not.git"
+    "url": "git+https://github.com/EnsoH/finger-print-me-not.git"
   },
   "keywords": [
     "tls",
@@ -25,7 +25,6 @@
     "dist"
   ],
   "scripts": {
-    "prepare": "tsc",
     "prebuild": "rimraf dist",
     "build": "run-p build:*",
     "build:common": "tsc",
