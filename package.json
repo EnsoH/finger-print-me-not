@@ -22,7 +22,9 @@
   "types": "dist/esm/index.d.ts",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "tsconfig.*"
   ],
   "scripts": {
     "prepare": "tsc",
