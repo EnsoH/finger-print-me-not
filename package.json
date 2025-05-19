@@ -25,6 +25,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "tsc",
     "prebuild": "rimraf dist",
     "build": "run-p build:*",
     "build:common": "tsc",
